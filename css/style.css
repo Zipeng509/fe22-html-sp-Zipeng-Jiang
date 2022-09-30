@@ -14,7 +14,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #4b9788;
+    --clr-accent: #4b9788; 
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -60,7 +60,6 @@ strong{ font-weight: var(--fw-bold);}
 }
 
 /* typography */
-
 h1,
 h2,
 h3 {
@@ -148,7 +147,6 @@ header{
     }
 }
 
-
 /* work */
 
 .my-work{
@@ -202,7 +200,8 @@ header{
     transition: all ease-in-out 300ms;
 }
 
-.portfolio__item:hover  .portfolio__item--name, .portfolio__item:focus  .portfolio__item--name {
+.portfolio__item:hover  .portfolio__item--name,
+.portfolio__item:focus  .portfolio__item--name {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1);
 }
